@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 #include <QMainWindow>
 #include<QLabel>
+#include<QPushButton>
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -16,7 +17,9 @@ public:
 
 private:
     Ui::MainWindow *ui;
-    QLabel *dice;
+    QLabel *dice_info;
+    QPushButton *dice_button;
+signals:
 private slots:
     //void TimeOut();
     void Dice_button_clicked();
