@@ -23,9 +23,12 @@ private:
     int counter;
     int number_of_player;
     int list_of_moves[4]={0,0,0,0};
-    char name_of_player[4]={' ',' ',' ',' '};
+    QString name_of_player[4]={" "," "," "," "};
 signals:
+public slots:
+    void get_name(QString a);
 private slots:
     void Dice_button_clicked();
+
 };
 #endif // MAINWINDOW_H
