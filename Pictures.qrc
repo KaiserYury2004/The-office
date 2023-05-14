@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>1 игрок.png</file>
+        <file>2 игрока.png</file>
+        <file>3 игрока.png</file>
+        <file>4 игрока.png</file>
+        <file>restart.png</file>
+        <file>Start screen.jpg</file>
+        <file>ввод 1.png</file>
+        <file>ввод 2.png</file>
+        <file>ввод 3.png</file>
+        <file>ввод 4.png</file>
+        <file>войти в офис.png</file>
+        <file>инфо.png</file>
+        <file>как тебя зовут.png</file>
+        <file>окно инфо.png</file>
+        <file>серая полоска.jpg</file>
+        <file>Игровое поле.png</file>
+        <file>музыка_стартера_1.mp3</file>
+    </qresource>
+</RCC>
